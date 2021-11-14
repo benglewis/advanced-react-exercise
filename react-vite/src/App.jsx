@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 export const ThemeContext = createContext("light");
+ThemeContext.displayName = "ThemeContext";
 export const setValue =
   (setter, number = true) =>
   (e) =>
